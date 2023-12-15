@@ -1,12 +1,25 @@
 body{
     font-size: medium;
+    background-color: #0d1b2a;
+    color: #fdfffc;
+}
+.home{
+  color: #9368B7;
 }
 .card {
     transition: transform 0.3s ease;
+    background-color: #0d1b2a00;
+    color: #e0e1dd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+  .card h5{
+    color: #41ead4;
+
+  }
+  h5{
+    color: #41ead4;
+  }
   .card:hover {
     transform: scale(1.05);
   }
